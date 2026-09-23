@@ -1,7 +1,6 @@
 {
-  "name": "framework-arduinoespressif32",
-  "version": "4.20017.260907+sha.dcc1105b",
-  "description": "Arduino Wiring-based Framework for the Espressif ESP32, ESP32-S and ESP32-C series of SoCs",
+  "name": "framework-arduinoespressif32-libs",
+  "description": "Precompiled libraries for Arduino Wiring-based Framework for the Espressif ESP32 series of SoCs",
   "keywords": [
     "framework",
     "arduino",
@@ -11,6 +10,7 @@
   "license": "LGPL-2.1-or-later",
   "repository": {
     "type": "git",
-    "url": "https://github.com/cydia2020/framework-arduinoespressif32"
-  }
+    "url": "https://github.com/espressif/esp32-arduino-lib-builder"
+  },
+  "version": "5.5.0+sha.2553c5ad432"
 }
