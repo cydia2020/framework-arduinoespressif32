@@ -91,8 +91,8 @@ MEMORY
 
      Start of RTC slow memory is reserved for ULP co-processor code + data, if enabled.
   */
-  rtc_slow_seg(RW) : org = 0x50000000 + 8000,
-                                     len = 0x2000 - 8000 - ((24))
+  rtc_slow_seg(RW) : org = 0x50000000 + 512,
+                                     len = 0x2000 - 512 - ((24))
   /* We reduced the size of rtc_slow_seg by RESERVE_RTC_MEM value.
      It reserves the amount of RTC slow memory that we use for this memory segment.
      This segment is intended for keeping rtc timer data (s_rtc_timer_retain_mem, see esp_clk.c files).
