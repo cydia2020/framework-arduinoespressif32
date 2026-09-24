@@ -1,7 +1,7 @@
-lib-builder: master 6671d0b
+lib-builder: master 4ca8226
 esp-idf: 2553c5ad432
-arduino: master e518da106
-tinyusb: master 24f60ceb0
+arduino: master 71a695b76
+tinyusb: master 4fd0536b4
 chmorgan__esp-libhelix-mp3: 1.0.3
 espressif__cbor: 0.6.1~4
 espressif__esp32-camera:
